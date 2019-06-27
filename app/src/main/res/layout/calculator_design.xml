@@ -126,6 +126,7 @@
         app:layout_constraintRight_toLeftOf="@id/guideline_v1"
         app:layout_constraintTop_toBottomOf="@id/guideline_h3"/>
 
+//button 2 size does not match the rest
     <Button
         android:id="@+id/butt_2"
         android:layout_width="0dp"
