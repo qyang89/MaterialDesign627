@@ -12,7 +12,7 @@ public class MainActivity {
 
     public class MainActivity extends AppCompatActivity {
 
-
+        private static final String TAG = MainActivity.class.getSimpleName();
 
 //declare: our variables
         Button butt_0, butt_1, butt_2, butt_3, butt_4, butt_5, butt_6, butt_7, butt_8, butt_9, butt_dot, butt_equal, butt_add, butt_sub, butt_multiply, butt_negate, butt_clear, butt_percent, butt_divide;
@@ -51,7 +51,7 @@ public class MainActivity {
 
 
 
-            //creating onlicklistener to click
+            //creating onlicklistener, click and show toast of click
 
             butt_0.setOnClickListener(new View.OnClickListener() {
                 @Override
