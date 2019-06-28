@@ -101,16 +101,6 @@
         app:layout_constraintTop_toBottomOf="@id/guideline_h4"/>
 
 
-    <Button
-        android:id="@+id/butt_dot"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@color/color10"
-        app:layout_constraintBottom_toBottomOf="@id/guideline_h4"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/guideline_v1"
-        app:layout_constraintTop_toBottomOf="@id/guideline_h3"/>
-
 
     <Button
         android:id="@+id/butt_1"
