@@ -1,7 +1,21 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+
+
+        <!--//bridge themes-->
+        <!--Theme.MaterialComponents.Bridge
+            Theme.MaterialComponents.NoActionBar.Bridge //dark default background, this is one is nice
+        Theme.MaterialComponents.Light.Bridge-->
+
+        <!--theme types:-->
+
+        <!--"Theme.AppCompat.Light.DarkActionBar" //default theme
+        Theme.MaterialComponents.DayNight
+        Theme.MaterialComponents.Light //lighter //default background
+        "Theme.MaterialComponents.NoActionBar" //excludes project name-->
+
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
